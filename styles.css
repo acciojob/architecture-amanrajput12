@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+body{
+	/* border:1px solid black; */
+width:1100px;
+	background-color:#86eba1;
+	/* background-color:black; */
+}
+table{
+border-collapse:collapse;
+}
+table,td{
+border:1px solid black;
+}
+
+tr>td>img{
+width:200px
+}
+
+tr>td:nth-child(2){
+width:600px;
+	text-align:center
+}
